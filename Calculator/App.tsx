@@ -15,6 +15,7 @@ export default function App() {
           theme === "light" ? Styles.container : [Styles.container, { backgroundColor: "#000000" }]
         }
       >
+        <View style={{ height: 30 }}></View>
         <View style={Styles.setTheme}>
           <Text style={theme === "light" ? { color: myColors.black } : { color: myColors.white }}>
             Light Theme:{" "}
